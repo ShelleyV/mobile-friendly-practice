@@ -1,0 +1,24 @@
+
+element.style {
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+}
+img[Attributes Style] {
+    width: 885px;
+    height: 646px;
+}
+
+html {
+    display: block;
+}
+
+element.style {
+    margin: 0px;
+    background: #0e0e0e;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
