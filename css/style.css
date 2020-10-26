@@ -1,23 +1,38 @@
+/* #wave { */
+    /* position: absolute; */
+    /* height: 300px; */
+    /* width: 600px; */
+    /* background:teal; */
+/* } */
 
-element.style {
-    -webkit-user-select: none;
-    margin: auto;
-    /* cursor: zoom-in; */
-}
-img{
-    width: 885px;
-    height: 646px;
-}
+  .item {
+      float: right;
 
-html {
-    display: block;
-}
+  }
+  body {
+      font: #darkaquamarine;
+  }
 
-body {
-    display: block;
-    margin: 8px;
-}
-@media only screen and (max-width: 600px) {
+      .content {
+          margin: 50px;
+          padding: 50px;
+          height: fit-content;
+          width: fit-content;
+      }
+
+  }
+  .footer {
+    position: fixed;
+    left: 0; 
+    bottom: 0; 
+    height: 10px;
+    width: 100%;
+    background-color: darkturquoise;
+    color: darkturquoise;
+    text-align: center;
+ }
+
+  @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
