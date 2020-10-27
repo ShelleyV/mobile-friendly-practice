@@ -4,11 +4,26 @@
     /* width: 600px; */
     /* background:teal; */
 /* } */
+h1 {
+    position: absolute;
+    color:white; 
+    font-size: 50px;
+    
+}
+h2{
+    color:teal; 
+    font-size: 25px;
+}
 
   .item {
       float: right;
-
+      color:teal; 
+      font-size: 25px;
   }
+
+p {
+    color: black;
+}
   body {
       font: #darkaquamarine;
   }
@@ -20,19 +35,24 @@
           width: fit-content;
       }
 
-  }
-  .footer {
+  footer {
     position: fixed;
     left: 0; 
     bottom: 0; 
-    height: 10px;
+    height: 50px;
     width: 100%;
-    background-color: darkturquoise;
-    color: darkturquoise;
+    background-color: rgb(2, 47, 48);
+    color: rgb(2, 47, 48);
     text-align: center;
  }
 
-  @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
+  }
+  @media only screen and (max-width: 480px) {
+    h1 {
+      background-color: lightblue;
+    }
+  }
